@@ -6,7 +6,7 @@ const TaskProvider=({children})=>
     const [task,setTask]=useState(
         {
             id: '334',     // Unique task ID (Date.now() or UUID)
-            title: 'sccc',           // Task title
+            title: 'Create Html elements for client',           // Task title
             notes: 'string',           // Optional notes/details
             completed: 'boolean',      // Done or not
             createdAt: 'string',       // Timestamp (ISO or readable format)
