@@ -3,9 +3,9 @@ import { TaskContext } from "../context/TaskContext";
 
 const TaskProvider=({children})=>
 {
-    const [task,setTask]=useState([])
+    const [tasks,setTask]=useState([])
     return(
-        <TaskContext.Provider value={{task,setTask}}>
+        <TaskContext.Provider value={{tasks,setTask}}>
             {children}
         </TaskContext.Provider>
     );
