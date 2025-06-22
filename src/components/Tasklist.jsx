@@ -39,7 +39,7 @@ const TaskList = () => {
      <div className="space-y-4 overflow-y-auto max-h-full">
         {/* Example Task */}
        { tasks.map((item, index) => {
-          return <TaskItem idx={index} title={item.name} />})}
+          return <TaskItem idx={index} title={item.name} id={item.id} />})}
       </div>
     </aside>
   );
