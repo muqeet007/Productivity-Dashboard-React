@@ -1,10 +1,28 @@
  @import url('https://fonts.googleapis.com/css2?family=Playwrite+GB+J:ital,wght@0,100..400;1,100..400&display=swap');
-@import "tailwindcss";
+
+ @import url('https://fonts.googleapis.com/css2?family=Caprasimo&display=swap');
+
+@import 'https://cdn.boxicons.com/fonts/basic/boxicons.min.css';
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=WDXL+Lubrifont+JP+N&display=swap');
+
+
+ @import "tailwindcss";
+
+
 
 @theme {
  --font-secondary:"Playwrite GB J", 'cursive';
+ --font-primary:"Caprasimo", 'cursive';
+ --font-tertiary:"Poppins", 'sans-serif';
+ --font-number:"WDXL Lubrifont JP N", 'sans-serif';
+
+ 
  --color-greeno:#79a85b;
  --color-greeno-light:#a7db86;
  --color-greeny:#b4d99c;
+ --color-greeno-300:'#7CFC00';
 }
 
