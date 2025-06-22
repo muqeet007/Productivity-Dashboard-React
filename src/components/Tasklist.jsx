@@ -1,7 +1,11 @@
+import { useContext } from "react";
+import { TaskContext } from "../context/TaskContext";
 import addIcon from "../assets/plus-circle.png";
-
 import TaskItem from "./Taskitem";
+
 const TaskList = () => {
+
+  const {tasks}=useContext(TaskContext)
   return (
     <aside className="h-188 w-120 flex flex-col p-4  bg-green-50 mt-1 mr-0.75">
       {/* Heading */}
@@ -34,7 +38,8 @@ const TaskList = () => {
       {/* Task items will go here */}
      <div className="space-y-4 overflow-y-auto max-h-full">
         {/* Example Task */}
-        <TaskItem />
+       { tasks.map((item, index) => {
+          return <TaskItem idx={index} title={item.name} id={item.id} />})}
       </div>
     </aside>
   );
