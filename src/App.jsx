@@ -6,7 +6,7 @@ import AboutLower from "./components/AboutLower";
 
 function App() {
   return (
-    <div className="h-auto">
+    <div>
       <div className="h-1/2">
          <Header />
       <div className="flex items-stretch">
