@@ -18,7 +18,7 @@ const Timer = () => {
     setMode(newMode);
     setIsRunning(true);
     if (newMode === "pomo") setTimeLeft(25 * 60);
-    else if (newMode === "short") setTimeLeft(5 );
+    else if (newMode === "short") setTimeLeft(5 * 60);
     else if (newMode === "long") setTimeLeft(15 * 60);
   };
 
